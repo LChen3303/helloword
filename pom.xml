@@ -36,7 +36,10 @@
         <artifactId>tomcat7-maven-plugin</artifactId>
         <version>2.2</version>
         <configuration>
-          <port>80</port>
+          <url>http://116.62.141.70:8098/manager/text</url>
+          <username>admin</username>
+          <password>admin123</password>
+          <update>true</update>
           <path>/demo</path>
         </configuration>
       </plugin>
